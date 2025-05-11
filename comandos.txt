@@ -26,6 +26,7 @@
  git add comandos.txt
  git commit -m "Criando arquivo comandos.txt"
  git checkout main
+ git remote remove origin
  git remote add origin https://github.com/marciodouglasIFRN/curso-branchs-ifrn-ead.git	
  git push -u origin main
  git checkout add-comandos
