@@ -1,0 +1,33 @@
+ Márcio Douglas Xavier
+
+ mkdir curso-branchs-ifrn-ead
+ git clone  https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+ cd curso-branchs-ifrn-ead/
+ git branch 
+ git branch feature-1
+ git branch 
+ nano texto.txt
+ git add texto.txt 
+ git commit -m "Criando arquivo texto.txt"
+ git checkout feature-1 
+ nano texto.txt
+ gti add texto.txt 
+ git commit -m "Alterando conteudo do arquivo texto.txt"
+ git checkout main 
+ git merge feature-1 
+ nano texto.txt 
+ git status
+ git add texto.txt 
+ git commit -m "Merge feature-1 em main"
+ git branch add-comandos
+ git checkout add-comandos 
+ nano comandos.txt
+ git status
+ git add comandos.txt
+ git commit -m "Criando arquivo comandos.txt"
+ git checkout main
+ git remote remove origin
+ git remote add origin https://github.com/marciodouglasIFRN/curso-branchs-ifrn-ead.git	
+ git push -u origin main
+ git checkout add-comandos
+ git push origin add-comandos
